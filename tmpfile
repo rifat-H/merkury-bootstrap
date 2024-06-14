@@ -1,0 +1,16 @@
+fonts
+==============
+font-family: 'Roboto', sans-serif;
+
+
+icons
+==============
+<i class="far fa-check-circle"></i>
+<i class="far fa-times-circle"></i>
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-google-plus-g"></i>
+<i class="fab fa-twitter"></i>
+
+plugins to add
+===================
+jquery ui drag and drop

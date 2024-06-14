@@ -1,0 +1,405 @@
+@import 'variable.scss';
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    // common class
+
+    .title {
+        font-size: 30px;
+    }
+
+
+    // common class
+
+    // footer start
+    footer {
+        text-align: center;
+
+        ul {
+            justify-content: center !important;
+
+            li {
+                margin-left: 10px;
+                margin-right: 0 !important;
+            }
+        }
+    }
+
+    // footer end
+
+
+    // <!-- pricing start -->
+    .pricing {
+        button {
+            &:before {
+                display: none;
+            }
+
+            &:after {
+                display: none;
+            }
+        }
+    }
+
+    // <!-- pricing start -->
+
+
+
+    // <!-- drag start -->
+    .slick-next {
+        right: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    .slick-prev {
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    .drag {
+        padding-top: 15px;
+        padding-bottom: 73px;
+        text-align: center;
+
+        .drag-content {
+            margin-top: 50px;
+        }
+    }
+
+    // <!-- drag end -->
+
+    // <!-- browser start -->
+    .browser {
+        text-align: center;
+
+        p {
+            font-size: 16px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+    }
+
+    // <!-- browser end -->
+
+
+    // <!-- services start -->
+    .services {
+        padding-top: 0;
+
+        .service-content {
+            &:after {
+                content: none;
+            }
+        }
+    }
+
+    // <!-- services end -->
+
+    // header start
+    header {
+        padding-bottom: 94px;
+
+        nav {
+            ul {
+                margin-top: 20px;
+
+                li {
+                    margin: 5px auto;
+
+                    a {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+
+        .banner {
+            padding-top: 70px;
+
+            p {
+                font-size: 26px;
+            }
+
+            button {
+                padding: 11px 45px;
+            }
+
+            img {
+                top: 370px;
+                left: 2px;
+            }
+        }
+    }
+
+    // header end
+
+
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    // common class
+
+    .title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    // common class
+
+
+    // footer start
+    footer {
+        text-align: center;
+
+        ul {
+            justify-content: center !important;
+
+            li {
+                margin-left: 10px;
+                margin-right: 0 !important;
+            }
+        }
+    }
+
+    // footer end
+
+
+    // <!-- drag start -->
+    .slick-next {
+        right: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    .slick-prev {
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    .drag {
+        padding-top: 15px;
+        padding-bottom: 73px;
+        text-align: center;
+    }
+
+    // <!-- drag end -->
+
+
+    // <!-- browser start -->
+    .browser {
+        text-align: center;
+    }
+
+    // <!-- browser end -->
+
+
+    // <!-- services start -->
+    .services {
+        padding-top: 0;
+
+        .service-content {
+            &:after {
+                content: none;
+            }
+        }
+    }
+
+    // <!-- services end -->
+
+
+    // header start
+    header {
+
+        padding-bottom: 120px;
+
+        nav {
+            ul {
+                margin-top: 20px;
+
+                li {
+                    margin: 5px auto;
+
+                    a {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        .banner {
+            padding-top: 80px;
+
+            p {
+                font-size: 32px;
+            }
+
+            button {
+                padding: 14px 55px;
+            }
+        }
+    }
+
+    // header end
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    // common class
+
+    .title {
+        font-size: 45px;
+    }
+
+
+    // common class
+
+    // drag start
+    .slick-prev,
+    .slick-next {
+        // bottom: 0 !important;
+        top: 115%;
+    }
+    // drag end
+
+
+    // footer start
+    footer {
+        text-align: center;
+
+        ul {
+            justify-content: center !important;
+
+            li {
+                margin-left: 20px;
+                margin-right: 0 !important;
+            }
+        }
+    }
+
+    // footer end
+
+
+    // <!-- browser start -->
+    .browser {
+        text-align: center;
+    }
+
+    // <!-- browser end -->
+
+
+    // <!-- services start -->
+    .services {
+        padding-top: 0;
+
+        .service-content {
+            &:after {
+                content: none;
+            }
+        }
+    }
+
+    // <!-- services end -->
+
+
+
+
+
+    // header start
+    header {
+        padding-bottom: 120px;
+
+        nav {
+            ul {
+                margin-top: 20px;
+
+                li {
+                    margin: 5px auto;
+
+                    a {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        .banner {
+            padding-top: 100px;
+        }
+    }
+
+    // header end
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+     // drag start
+     .slick-prev,
+     .slick-next {
+         // bottom: 0 !important;
+         top: 115%;
+         right: 40%;
+        transform: translate(-50%, -50%);
+     }
+
+
+
+
+
+     // drag end
+
+
+    // footer start
+    footer {
+        text-align: center;
+
+        ul {
+            justify-content: center !important;
+
+            li {
+                margin-left: 20px;
+                margin-right: 0 !important;
+            }
+        }
+    }
+
+    // footer end
+
+    // <!-- services start -->
+    .services {
+        padding-top: 0;
+
+        .service-content {
+            &:after {
+                width: 180px;
+                left: 230px;
+            }
+        }
+    }
+
+    // <!-- services end -->
+
+
+    // header start
+
+    header {
+        .banner {
+            img {
+                top: 369px;
+                left: 0;
+            }
+        }
+    }
+
+    // header end
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
